@@ -4,4 +4,17 @@
 
 This place stores all the data sequence that are open access to the community.
 
-For more knowledge about the dataset, please checkout this page: https://mrl-anomaly.github.io/#home
+For more knowledge about the dataset, please checkout this page: https://mrl-anomaly.github.io/#home.
+
+Currently, the archive contains data sequence of the following health conditions:
+1. Healthy (50 count)
+2. Manual N-mode (50 count) 
+3. Manual V-mode (50 count)
+4. Automated V-mode (50 count)
+5. Manual D-mode (50 count)
+
+Every folder is updated in batches of 50 sequences. 
+
+Data sequence to be compiled and added: (9/21/21: Might be delayed due to a thorough synthesizer apparatus setup)
+1. Automated N-mode
+2. Automated V-mode
