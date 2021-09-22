@@ -21,6 +21,6 @@ Data sequence to be compiled and added: (9/21/21: Might be delayed due to a thor
 
 
 | Data ID  | Short Description | Further Process? |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| ------------- | ------------- |  ------------- |
+| 50  | Content Cell  | |
+| Content Cell  | Content Cell  | |
