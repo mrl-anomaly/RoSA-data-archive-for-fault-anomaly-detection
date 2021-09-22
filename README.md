@@ -18,3 +18,9 @@ Every folder is updated in batches of 50 sequences.
 Data sequence to be compiled and added: (9/21/21: Might be delayed due to a thorough synthesizer apparatus upgrade)
 1. Automated N-mode
 2. Automated V-mode
+
+
+| Data ID  | Short Description | Further Process? |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
