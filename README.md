@@ -15,6 +15,6 @@ Currently, the archive contains data sequence of the following health conditions
 
 Every folder is updated in batches of 50 sequences. 
 
-Data sequence to be compiled and added: (9/21/21: Might be delayed due to a thorough synthesizer apparatus setup)
+Data sequence to be compiled and added: (9/21/21: Might be delayed due to a thorough synthesizer apparatus upgrade)
 1. Automated N-mode
 2. Automated V-mode
