@@ -20,7 +20,9 @@ Data sequence to be compiled and added: (9/21/21: Might be delayed due to a thor
 2. Automated V-mode
 
 
-| Data ID  | Short Description | Further Process? |
+** Short description of data sequence **
+
+| Data Sequence  | Short Description | Further Process? |
 | ------------- | ------------- |  ------------- |
 | 50  | Content Cell  | |
 | Content Cell  | Content Cell  | |
