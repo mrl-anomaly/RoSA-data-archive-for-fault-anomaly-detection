@@ -9,14 +9,13 @@ For more knowledge about the dataset, please checkout this page: https://mrl-ano
 Currently, the archive contains data sequence of the following health conditions:
 1. Healthy (84 sequences)
 2. Manual N-mode (51 sequences) 
-3. Manual V-mode (50 sequences)
-4. Automated V-mode (50 sequences)
-5. Manual D-mode (50 sequences)
+3. MC-sampled V-mode (50 sequences)
+4. Manual D-mode (50 sequences)
 
 Data sequence to be compiled and added: (9/21/21: Might be delayed due to a thorough synthesizer apparatus upgrade)
-1. Automated N-mode
-2. Automated V-mode
-3. Combined Modes
+1. MC-sampled Automated N-mode
+2. Randomly-generated Automated V-mode
+3. Combinational Axial + Radial Modes
 
 TO-DO: add annotation on the .csv file columns.
 
