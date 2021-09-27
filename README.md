@@ -18,4 +18,6 @@ Data sequence to be compiled and added: (9/21/21: Might be delayed due to a thor
 2. Automated V-mode
 3. Combined Modes
 
+TO-DO: add annotation on the .csv file columns.
+
 
