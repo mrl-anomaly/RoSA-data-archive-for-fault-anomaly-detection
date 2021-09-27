@@ -7,7 +7,7 @@ This place stores all the data sequence that are open access to the community.
 For more knowledge about the dataset, please checkout this page: https://mrl-anomaly.github.io/#home.
 
 Currently, the archive contains data sequence of the following health conditions:
-1. Healthy (84 sequences)
+1. Healthy mode (84 sequences)
 2. Manual N-mode (51 sequences) 
 3. MC-sampled V-mode (50 sequences)
 4. Manual D-mode (50 sequences)
