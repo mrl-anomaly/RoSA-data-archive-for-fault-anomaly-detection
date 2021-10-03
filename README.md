@@ -19,7 +19,7 @@ Data sequence to be compiled and added: (9/21/21: Might be delayed due to a thor
 
 Column Annotation:
 
-| Public Column Name | Description | Notice |
+| Public Column Name | Description |
 | --- | --- |
 | Time | DAQ Main Host time in millis() | 
 | Rel Time | Relative time computed from 'Time'| 
