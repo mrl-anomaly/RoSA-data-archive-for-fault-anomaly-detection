@@ -32,3 +32,13 @@ Column Annotation:
 | N-mode? | Whether N-mode anomalous event is on or not|
 | V-mode? | Whether V-mode anomalous event is on or not|
 | D-mode? | Whether D-mode anomalous event is on or not|
+|Binary Macro Health Mode | Whether plant is experiencing anomaly (A) or healthy (H)|
+| Multi-class Sublevel Mode | Sublevel Mode of the plant, expands A to V/D/N |
+| Multi-class Sublevel Mode Enc | Category number based on 'Multi-class Sublevel Mode' | 
+| N-mode attribute | Lateral force reading introduced to the plant |
+| V-mode attribute | Active vibration frequency introduced to the plant |
+| D-mode attribute | External damper motor resistance (15ohm is regular operating condition) |
+
+
+
+
