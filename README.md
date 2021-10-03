@@ -17,6 +17,42 @@ Data sequence to be compiled and added: (9/21/21: Might be delayed due to a thor
 2. Randomly-generated Automated V-mode
 3. Combinational Axial + Radial Modes
 
-TO-DO: add annotation on the .csv file columns.
+Column Annotation:
+
+| Public Column Name | Description |
+| --- | --- |
+| Time | DAQ Main Host time in millis() | 
+| Rel Time | Relative time computed from 'Time'| 
+| MCU Time | DAQ MCU time (Use above 2 instead) |
+| Sample Freq | Sampling frequency for every time step (no smoothing used) |
 
 
+| Label Space Column Name | Description |
+| --- | --- |
+| N-mode? | Whether N-mode anomalous event is on or not|
+| V-mode? | Whether V-mode anomalous event is on or not|
+| D-mode? | Whether D-mode anomalous event is on or not|
+|Binary Macro Health Mode | Whether plant is experiencing anomaly (A) or healthy (H)|
+| Multi-class Sublevel Mode | Sublevel Mode of the plant, expands anomaly(A) to V/D/N |
+| Multi-class Sublevel Mode Enc | Category number based on 'Multi-class Sublevel Mode' | 
+| N-mode attribute | Lateral force reading introduced to the plant |
+| V-mode attribute | Active vibration frequency introduced to the plant |
+| D-mode attribute | External damper motor resistance (15ohm is regular operating condition) |
+| Force Sensor Number | Which force sensor to read for N-mode and V-mode (already taken care of) |
+| Tool Head Number | EoAT number for N-mode and V-mode |
+
+| Feature Space Column Name | Description | Sensor |
+| --- | --- | --- |
+| Desired Speed | Desired operating angular velocity of the shaft | NA| 
+| Actual Speed | Actual operating angular velocity of the shaft  | Encoder installed on the plant | 
+|Shaft Control Effort | Control effort to maintain the angular speed of the shaft | MCU analog port |  
+| Orient. xyz| Orientation of the shaft | IMU installed on the shaft | 
+| AngVel. xyz| Angular velocity of the shaft | IMU installed on the shaft |  
+| LinAcc. xyz| Linear acceleration of the shaft | IMU installed on the shaft |  
+| Mag. xyz | Magnetic field around the shaft | IMU installed on the shaft |  
+| Quat. xyzw | Quaternion representation of the shaft | IMU installed on the shaft |  
+| Temp | Temperature around the shaft |  Temperature Sensor installed on the shaft|
+| Audio | Audio reading around the shaft |  Audio Sensor installed on the shaft|
+| Strain Gage| Strain reading on the surface of the shaft| Strain Gage Sensor installed on the shaft |
+
+*** Note: all other columns are DEPRECATED or already taken care of to generate the above columns. It would be meaningless to use them. ****
