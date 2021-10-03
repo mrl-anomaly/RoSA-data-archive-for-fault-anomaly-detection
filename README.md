@@ -41,6 +41,14 @@ Column Annotation:
 | Force Sensor Number | Which force sensor to read for N-mode and V-mode (already taken care of) |
 | Tool Head Number | EoAT number for N-mode and V-mode |
 
+| Feature Space Column Name | Description | Sensor |
+| --- | --- |
+| Desired Speed | Desired operating angular velocity of the shaft | NA| 
+| Actual Speed | Actual operating angular velocity of the shaft  | Encoder installed on the plant |
+|Shaft Control Effort | Control effort to maintain the angular speed of the shaft | MCU analog port |
+| Orient. xyz| Orientation of the shaft | IMU installed on the shaft |
+| AngVel. xyz| Angular Velocity of the shaft | IMU installed on the shaft |
+| LinAcc. xyz| Linear Acceleration of the shaft | IMU installed on the shaft |
 
 
 
