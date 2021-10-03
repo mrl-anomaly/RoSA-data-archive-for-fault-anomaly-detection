@@ -19,7 +19,8 @@ Data sequence to be compiled and added: (9/21/21: Might be delayed due to a thor
 
 Column Annotation:
 
-| Public Column Name | Description |
+| Public Column Name | Description | Notice |
 | --- | --- |
-| Time | DAQ MCU time in millis() (use Rel Time)|
-| Rel Time | Relative time computed from 'Time'|
+| Time | DAQ Main Host time in millis() | 
+| Rel Time | Relative time computed from 'Time'| 
+| MCU Time | DAQ MCU time (Use above 2 instead) |
