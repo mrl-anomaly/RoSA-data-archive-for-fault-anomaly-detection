@@ -38,6 +38,7 @@ Column Annotation:
 | N-mode attribute | Lateral force reading introduced to the plant |
 | V-mode attribute | Active vibration frequency introduced to the plant |
 | D-mode attribute | External damper motor resistance (15ohm is regular operating condition) |
+| Force Sensor Number | Which force sensor to read for N-mode and V-mode (already taken care of) |
 
 
 
