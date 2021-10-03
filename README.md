@@ -18,6 +18,8 @@ Data sequence to be compiled and added: (9/21/21: Might be delayed due to a thor
 3. Combinational Axial + Radial Modes
 
 Column Annotation:
-A. Public columns:
-1. Time: DAQ MCU time in millis() (use Rel Time);
-2. Rel Time: Relative time computed from 'Time';
+
+| Public Column Name | Description |
+| --- | --- |
+| Time | DAQ MCU time in millis() (use Rel Time)|
+| Rel Time | Relative time computed from 'Time'|
