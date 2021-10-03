@@ -53,6 +53,6 @@ Column Annotation:
 | Quat. xyzw | Quaternion representation of the shaft | IMU installed on the shaft |  
 | Temp | Temperature around the shaft |  Temperature Sensor installed on the shaft|
 | Audio | Audio reading around the shaft |  Audio Sensor installed on the shaft|
-| Strain Gauge| Strain reading on the surface of the shaft| Strain Gauge Sensor installed on the shaft |
+| Strain Gage| Strain reading on the surface of the shaft| Strain Gage Sensor installed on the shaft |
 
 
