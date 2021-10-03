@@ -42,14 +42,17 @@ Column Annotation:
 | Tool Head Number | EoAT number for N-mode and V-mode |
 
 | Feature Space Column Name | Description | Sensor |
-| --- | --- |
+| --- | --- | --- |
 | Desired Speed | Desired operating angular velocity of the shaft | NA| 
-| Actual Speed | Actual operating angular velocity of the shaft  | Encoder installed on the plant |
-|Shaft Control Effort | Control effort to maintain the angular speed of the shaft | MCU analog port |
-| Orient. xyz| Orientation of the shaft | IMU installed on the shaft |
-| AngVel. xyz| Angular Velocity of the shaft | IMU installed on the shaft |
-| LinAcc. xyz| Linear Acceleration of the shaft | IMU installed on the shaft |
-
-
+| Actual Speed | Actual operating angular velocity of the shaft  | Encoder installed on the plant | 
+|Shaft Control Effort | Control effort to maintain the angular speed of the shaft | MCU analog port |  
+| Orient. xyz| Orientation of the shaft | IMU installed on the shaft | 
+| AngVel. xyz| Angular velocity of the shaft | IMU installed on the shaft |  
+| LinAcc. xyz| Linear acceleration of the shaft | IMU installed on the shaft |  
+| Mag. xyz | Magnetic field around the shaft | IMU installed on the shaft |  
+| Quat. xyzw | Quaternion representation of the shaft | IMU installed on the shaft |  
+| Temp | Temperature around the shaft |  Temperature Sensor installed on the shaft|
+| Audio | Audio reading around the shaft |  Audio Sensor installed on the shaft|
+| Strain Gauge| Strain reading on the surface of the shaft| Strain Gauge Sensor installed on the shaft |
 
 
