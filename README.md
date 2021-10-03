@@ -24,3 +24,11 @@ Column Annotation:
 | Time | DAQ Main Host time in millis() | 
 | Rel Time | Relative time computed from 'Time'| 
 | MCU Time | DAQ MCU time (Use above 2 instead) |
+| Sample Freq | Sampling frequency for every time step (no smoothing used) |
+
+
+| Label Space Column Name | Description |
+| --- | --- |
+| N-mode? | Whether N-mode anomalous event is on or not|
+| V-mode? | Whether V-mode anomalous event is on or not|
+| D-mode? | Whether D-mode anomalous event is on or not|
