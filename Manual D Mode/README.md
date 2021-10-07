@@ -1,6 +1,6 @@
 | Data Sequence  | Short Description | Further Process? |
 | ------------- | ------------- |  ------------- |
-
+| 415 | DAQ error | Reuse ID |
 
 10/6/21
 I am manually going through each sequence to see if there's any data logging/processing error.
