@@ -4,7 +4,7 @@
 
 This place stores all the data sequence that are open access to the community.
 
-For more knowledge about the dataset, please checkout this page: https://mrl-anomaly.github.io/#home.
+For more knowledge about the dataset, please checkout this page: https://mrl-anomaly.github.io.
 
 Current release - the archive contains data sequence of the following health conditions:
 1. Healthy mode (84 sequences)
