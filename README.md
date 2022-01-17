@@ -23,7 +23,7 @@ Column Annotation:
 | --- | --- |
 | Time | DAQ Main Host time in millis() | 
 | Rel Time | Relative time computed from 'Time'| 
-| MCU Time | DAQ MCU time (Use above 2 instead) |
+| MCU Time | DAQ MCU time (Use above 2 instead***) |
 | Sample Freq | Sampling frequency for every time step (no smoothing used) |
 
 
@@ -38,7 +38,7 @@ Column Annotation:
 | N-mode attribute | Lateral force reading introduced to the plant |
 | V-mode attribute | Active vibration frequency introduced to the plant |
 | D-mode attribute | External damper motor resistance (15ohm is regular operating condition) |
-| Force Sensor Number | Which force sensor to read for N-mode and V-mode (already taken care of) |
+| Force Sensor Number | Which force sensor to read for N-mode and V-mode (already taken care of, don't use***) |
 | Tool Head Number | EoAT number for N-mode and V-mode |
 
 | Feature Space Column Name | Description | Sensor |
