@@ -39,7 +39,7 @@ Column Annotation:
 | V-mode attribute | Active vibration frequency introduced to the plant |
 | D-mode attribute | External damper motor resistance (15ohm is regular operating condition) |
 | Force Sensor Number | Which force sensor to read for N-mode and V-mode (already taken care of, don't use***) |
-| Tool Head Number | EoAT number for N-mode and V-mode |
+| Tool Head Number | EoAT number for N-mode and V-mode (no numerical meaning***) |
 
 | Feature Space Column Name | Description | Sensor |
 | --- | --- | --- |
