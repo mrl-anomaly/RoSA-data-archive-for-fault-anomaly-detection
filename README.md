@@ -31,9 +31,9 @@ Column Annotation:
 
 | Label Space Column Name | Description |
 | --- | --- |
-| N-mode? | Whether N-mode anomalous event is on or not|
-| V-mode? | Whether V-mode anomalous event is on or not|
-| D-mode? | Whether D-mode anomalous event is on or not|
+| N-mode? | Whether N-mode anomalous state is on or not|
+| V-mode? | Whether V-mode anomalous state is on or not|
+| D-mode? | Whether D-mode anomalous state is on or not|
 |Binary Macro Health Mode | Whether plant is experiencing anomaly (A) or healthy (H)|
 | Multi-class Sublevel Mode | Sublevel Mode of the plant, expands anomaly(A) to V/D/N ({0,1,2,3}; notice V-mode overwrites N-mode; notice currently D do not coexist with V/N modes)|
 | Multi-class Sublevel Mode Enc | Category number based on 'Multi-class Sublevel Mode' | 
