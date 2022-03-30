@@ -31,7 +31,7 @@ Column Annotation:
 | Sample Freq | Sampling frequency for every time step (no smoothing used) |
 
 
-| Label Space Column Name | Description |
+| Condition State (Label) Space Column Name | Description |
 | --- | --- |
 | N-mode? | Whether N-mode anomalous state is on or not|
 | V-mode? | Whether V-mode anomalous state is on or not|
@@ -45,7 +45,7 @@ Column Annotation:
 | Force Sensor Number | Which force sensor to read for N-mode and V-mode (already taken care of, don't use***) |
 | Tool Head Number | EoAT number for N-mode and V-mode (no numerical meaning***) |
 
-| Feature Space Column Name | Description | Sensor |
+| Measurement (Feature) Space Column Name | Description | Sensor |
 | --- | --- | --- |
 | Desired Speed | Desired operating angular velocity of the shaft | MCU internal | 
 | Actual Speed | Actual operating angular velocity of the shaft  | 12-bit Encoder installed on the plant | 
