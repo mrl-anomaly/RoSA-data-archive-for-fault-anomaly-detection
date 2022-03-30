@@ -47,9 +47,9 @@ Column Annotation:
 
 | Feature Space Column Name | Description | Sensor |
 | --- | --- | --- |
-| Desired Speed | Desired operating angular velocity of the shaft | NA| 
-| Actual Speed | Actual operating angular velocity of the shaft  | Encoder installed on the plant | 
-|Shaft Control Effort | Control effort to maintain the angular speed of the shaft | MCU analog port |  
+| Desired Speed | Desired operating angular velocity of the shaft | MCU internal | 
+| Actual Speed | Actual operating angular velocity of the shaft  | 12-bit Encoder installed on the plant | 
+|Shaft Control Effort | Control effort to maintain the angular speed of the shaft | MCU PWM |  
 | Orient. xyz| Orientation of the shaft | IMU installed on the shaft | 
 | AngVel. xyz| Angular velocity of the shaft | IMU installed on the shaft |  
 | LinAcc. xyz| Linear acceleration of the shaft | IMU installed on the shaft |  
