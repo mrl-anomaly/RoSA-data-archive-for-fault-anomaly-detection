@@ -4,8 +4,6 @@
 
 This place stores all the data sequence that are open access to the community.
 
-For more knowledge about the dataset, please checkout this page: https://mrl-anomaly.github.io.
-
 For more information about the synthesis apparatus, checkout this page: https://ieeexplore.ieee.org/abstract/document/9561841 .
 
 Current release - the archive contains data sequence of the following health conditions:
