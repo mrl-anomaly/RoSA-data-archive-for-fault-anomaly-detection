@@ -6,13 +6,17 @@ This place stores all the data sequence that are open access to the community.
 
 For more information about the synthesis apparatus, checkout this page: https://ieeexplore.ieee.org/abstract/document/9561841 .
 
+Update - (3/29/22):
+1. New automation setup under construction
+2. RoSA v2 will be released after new automation setup
+
 Current release - the archive contains data sequence of the following health conditions:
 1. Healthy mode (84 sequences)
 2. Manual N-mode (51 sequences) 
 3. MC-generated V-mode (50 sequences)
 4. Manual D-mode (50 sequences)
 
-Planned release (9/21/21: Might be delayed due to a thorough synthesizer apparatus upgrade)
+Planned release (Might be delayed due to a thorough synthesizer apparatus upgrade)
 1. MC-generated Automated N-mode
 2. Uniformly-generated Automated V-mode
 3. Combinational Axial + Radial Modes
