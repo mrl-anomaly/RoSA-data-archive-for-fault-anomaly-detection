@@ -16,7 +16,7 @@ Current release - the archive contains data sequence of the following health con
 3. MC-generated V-mode (50 sequences)
 4. Manual D-mode (50 sequences)
 
-Planned release (Might be delayed due to a thorough synthesizer apparatus upgrade)
+Planned release 
 1. MC-generated Automated N-mode
 2. Uniformly-generated Automated V-mode
 3. Combinational Axial + Radial Modes
