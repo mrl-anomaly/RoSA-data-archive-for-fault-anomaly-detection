@@ -4,7 +4,7 @@
 
 This place stores all the data sequence that are open access to the community.
 
-For more information about the synthesis apparatus, checkout this page: https://ieeexplore.ieee.org/abstract/document/9561841 .
+For more information about the synthesis apparatus, checkout and cite this page: https://ieeexplore.ieee.org/abstract/document/9561841 .
 
 Update - (3/29/22):
 1. New automation setup under construction
