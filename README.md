@@ -4,8 +4,9 @@
 
 This place stores all the data sequence that are open access to the community.
 
-For more information about the synthesis apparatus, checkout and cite this page: https://ieeexplore.ieee.org/abstract/document/9561841 .
+For more information about the mechatronic synthesis apparatus, checkout and cite this page: https://ieeexplore.ieee.org/abstract/document/9561841 .
 
+Update - (7/19/22):
 This dataset will be presented in the 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2022), stay tuned!
 
 Update - (3/29/22):
