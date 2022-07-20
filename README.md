@@ -6,9 +6,11 @@ This place stores all the data sequence that are open access to the community.
 
 For more information about the synthesis apparatus, checkout and cite this page: https://ieeexplore.ieee.org/abstract/document/9561841 .
 
+This dataset will be presented in the 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2022), stay tuned!
+
 Update - (3/29/22):
-1. New automation setup under construction
-2. RoSA v2 will be released after new automation setup
+1. New robotic setup under construction
+2. RoSA v2 will be released after new robotic setup
 
 Current release - the archive contains data sequence of the following health conditions:
 1. Healthy mode (84 sequences)
