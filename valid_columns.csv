@@ -1,0 +1,3 @@
+Time,Rel Time,Exp.ID,,,,,,,,,,,,,,,,,,,,
+Desired Speed,Shaft Control Effort,Actual Speed,Orient. x,Orient. y,Orient. z,AngVel x,AngVel y,AngVel z,LinAcc. x,LinAcc. y,LinAcc. z,Mag. x ,Mag. y,Mag. z, Quat. w, Quat. x, Quat. y, Quat. z,Temp,Audio,Strain Gage,Sample Freq
+N-mode attribute,D-mode attribute,V-mode attribute,N-mode?,V-mode?,D-mode?,Binary Macro Health Mode,Multi-class Sublevel Mode,Multi-class Sublevel Mode Enc,,,,,,,,,,,,,,
