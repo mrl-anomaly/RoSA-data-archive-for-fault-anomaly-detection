@@ -1,3 +1,5 @@
+![alt text](http://url/to/img.png)
+
 # MIT-MRL-RoSA-Data-Archive
 
 ** Welcome to the Rotodynamic System with Synthetic Anomaly (RoSA) dataset **
