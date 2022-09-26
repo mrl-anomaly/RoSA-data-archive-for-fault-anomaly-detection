@@ -1,4 +1,4 @@
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/mrl-anomaly/MIT-MRL-RoSA-Data-Archive/blob/main/graphical_abstract.png?raw=true)
 
 # MIT-MRL-RoSA-Data-Archive
 
