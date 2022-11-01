@@ -7,6 +7,7 @@
 This place stores all the data sequence that are open access to the community.
 
 To cite this dataset:
+'''
 @INPROCEEDINGS{Yeung2022-mt,
   title     = "{RoSA:A} Mechatronically Synthesized Dataset for Rotodynamic
                System Anomaly Detection",
@@ -17,9 +18,9 @@ To cite this dataset:
                Youcef-toumi, Kamal",
   year      =  2022
 }
-
+'''
 For more information about the mechatronic synthesis apparatus, checkout:
-
+'''
 @INPROCEEDINGS{Yeung2021-yg,
   title     = "A {General-Purpose} Anomalous Scenario Synthesizer for Rotary
                Equipment",
@@ -28,7 +29,7 @@ For more information about the mechatronic synthesis apparatus, checkout:
                Mikio and Hirano, Takayuki and Youcef-toumi, Kamal",
   year      =  2021
 }
-
+'''
 
 
 Update - (10/31/22):
