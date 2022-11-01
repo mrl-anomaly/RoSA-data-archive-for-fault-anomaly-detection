@@ -6,7 +6,34 @@
 
 This place stores all the data sequence that are open access to the community.
 
-For more information about the mechatronic synthesis apparatus, checkout and cite this page: https://ieeexplore.ieee.org/abstract/document/9561841 .
+To cite this dataset:
+@INPROCEEDINGS{Yeung2022-mt,
+  title     = "{RoSA:A} Mechatronically Synthesized Dataset for Rotodynamic
+               System Anomaly Detection",
+  booktitle = "{IEEE/RSJ} International Conference on Intelligent Robots and
+               Systems ({IROS})",
+  author    = "Yeung, Yip Fun and Alshehri, Ali and Paul-Ajuwape, Alex and
+               Tahiry, Farida and Furokawa, Mikio and Hirano, Takayuki and
+               Youcef-toumi, Kamal",
+  year      =  2022
+}
+
+For more information about the mechatronic synthesis apparatus, checkout:
+
+@INPROCEEDINGS{Yeung2021-yg,
+  title     = "A {General-Purpose} Anomalous Scenario Synthesizer for Rotary
+               Equipment",
+  booktitle = "{IEEE} International Conference on Robotics and Automation",
+  author    = "Yeung, Yip Fun and Alshehri, Ali and Wampler, Lois and Furokawa,
+               Mikio and Hirano, Takayuki and Youcef-toumi, Kamal",
+  year      =  2021
+}
+
+
+
+Update - (10/31/22):
+1. This dataset is presented in the 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2022). 
+2. RoSA-II with better instrumentation and more extensive scope of anomalies is planned.
 
 Update - (7/19/22):
 This dataset will be presented in the 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2022), stay tuned!
