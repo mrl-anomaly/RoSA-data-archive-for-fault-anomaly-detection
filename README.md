@@ -85,4 +85,4 @@ Column Annotation:
 | Audio | Audio reading around the shaft |  Audio Sensor installed on the shaft|
 | Strain Gage| Strain reading on the surface of the shaft| Strain Gage Sensor installed on the shaft |
 
-*** Note: all other columns in the .csv files are DEPRECATED or already taken care of to generate the above columns. It would be meaningless to use them. ****
+*** Note: all other columns in the .csv files are DEPRECATED or already accounted for to generate the above columns. It would be meaningless to use them. ****
