@@ -2,7 +2,7 @@
 
 <a href="url"><img src="https://github.com/mrl-anomaly/MIT-MRL-RoSA-Data-Archive/blob/main/RoSA%20flyer%20cropped.png" align="center" width="600" ></a>
 
-**Welcome to the Rotodynamic System with Synthetic Anomaly (RoSA) dataset**
+# **Welcome to the Rotodynamic System with Synthetic Anomaly (RoSA) dataset**
 
 To cite this dataset:
 ```
@@ -66,7 +66,7 @@ For 'manual' data, the attributes are commanded by a human operator. For 'mc-gen
 
 The detail of this trajectory generation logic is described in [*RoSA:A Mechatronically Synthesized Dataset for Rotodynamic System Anomaly Detection*](https://ieeexplore.ieee.org/abstract/document/9982146), and the detail of the execution is described in [*A General-Purpose Anomalous Scenario Synthesizer for Rotary Equipment*](https://ieeexplore.ieee.org/abstract/document/9561841).
 
-**Contact**
+# **Contact**
 
 The two citations of the dataset description and the apparatus are written at high levels that might be unnecessarily confusing for direct usage of this dataset. So please don't hesitate to reach out to yyeung@mit.edu for additional explanations.
 
@@ -85,7 +85,7 @@ Update - (7/19/22):
 This dataset will be presented in the 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2022), stay tuned!
 
 
-**Column annotation in the .csv files**
+# **Column annotation in the .csv files**
 
 | Shared Column | Description |
 | --- | --- |
