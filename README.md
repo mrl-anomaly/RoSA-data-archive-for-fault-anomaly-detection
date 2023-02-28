@@ -1,4 +1,4 @@
-![alt text](https://github.com/mrl-anomaly/MIT-MRL-RoSA-Data-Archive/blob/main/graphical_abstract.png?raw=true)
+![alt text](https://github.com/mrl-anomaly/MIT-MRL-RoSA-Data-Archive/blob/main/RoSA%20flyer%20cropped.pdf)
 
 # MIT-MRL-RoSA-Data-Archive
 
