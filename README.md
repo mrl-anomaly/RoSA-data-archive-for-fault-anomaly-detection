@@ -20,7 +20,7 @@ To cite this dataset:
 }
 ```
 
-**Current release - the archive contains data sequence of the following real-time modulated health conditions**
+**Current release - the archive contains data sequence of the following real-time modulated healthy/faulty conditions**
 1. Healthy mode (84 sequences of the rotordynamic plant operating under various **speeds** and a normal damping load)
 2. Manual N-mode (51 sequences of the rotordynamic plant operating under various **speeds** and **lateral deflections**) 
 3. MC-generated V-mode (50 sequences sequences of the rotordynamic plant operating under various **speeds** and **external vibrations**)
