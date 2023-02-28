@@ -51,7 +51,7 @@ For more information about the automated synthesis apparatus, checkout:
 
 **Contact**
 
-The two citations of the dataset description and the apparatus are written very high level, so please don't hesitate to reach out to yyeung@mit.edu for additional explanations.
+The two citations of the dataset description and the apparatus are written at high levels that might be unnecessarily confusing for direct usage of this dataset. So please don't hesitate to reach out to yyeung@mit.edu for additional explanations.
 
 
 **Updates**
