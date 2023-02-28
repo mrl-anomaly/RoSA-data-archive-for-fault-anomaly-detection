@@ -39,14 +39,6 @@ Yeung, Yip Fun, Alex Paul-Ajuwape, Farida Tahiry, Mikio Furokawa, Takayuki Hiran
 
 Each sequence is a .csv file that contains the columns described below in the *Column annotation* section. Visualization of the each .csv file is generated and packed in the folders as a .png file for your convenience.
 
-**Difference between 'manual' and 'mc-generated' data**
-
-Each mode has a specific faulty attribute whose trajectory is designed and executed by automated apparatus. The N-mode attribute is the amount of shear load, V-mode is the vibration frequency, and D-mode is the inverse of the damping coefficient. 
-
-For 'manual' data, the attributes are commanded by a human operator. For 'mc-generated' data, the attribute's trajectory is rolled out with a Markov-Chain process, and programmed into the automated apparatus.
-
-The detail of this trajectory generation logic is described in *RoSA:A Mechatronically Synthesized Dataset for Rotodynamic System Anomaly Detection*, and the detail of the execution is described in *A General-Purpose Anomalous Scenario Synthesizer for Rotary Equipment*.
-
 **How faulty data is generated？**
 
 Unlike traditional methods that generate faulty conditions with **time-invariant** faulty components like bearings, shaft couplings, etc, our method follows a more automated way, such that we can generate large amount of **time-varying** synthetic faults. In essence, we build an automated setup to inject different types of faulty patterns into a rotordynamic plant. The faulty patterns in this dataset include vibration (e.g., simulating different faulty bearings), abnormal lateral load, and abnormal damping torque load. They are named as 'V', 'N' and 'D' modes, respectively.
@@ -66,6 +58,13 @@ For more information about the automated synthesis apparatus, checkout:
 }
 ```
 
+**Difference between 'manual' and 'mc-generated' data**
+
+Each mode has a specific faulty attribute whose trajectory is designed and executed by automated apparatus. The N-mode attribute is the amount of shear load, V-mode is the vibration frequency, and D-mode is the inverse of the damping coefficient. 
+
+For 'manual' data, the attributes are commanded by a human operator. For 'mc-generated' data, the attribute's trajectory is rolled out with a Markov-Chain process, and programmed into the automated apparatus.
+
+The detail of this trajectory generation logic is described in *RoSA:A Mechatronically Synthesized Dataset for Rotodynamic System Anomaly Detection*, and the detail of the execution is described in *A General-Purpose Anomalous Scenario Synthesizer for Rotary Equipment*.
 
 **Contact**
 
