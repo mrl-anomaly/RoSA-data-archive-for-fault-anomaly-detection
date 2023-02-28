@@ -114,15 +114,15 @@ This dataset will be presented in the 2022 IEEE/RSJ International Conference on 
 | Measurement (Feature) Space Column | Description | Sensor |
 | --- | --- | --- |
 | Desired Speed | Commanded operating angular velocity of the shaft | MCU internal | 
-| Actual Speed | Actual operating angular velocity of the shaft  | 12-bit Encoder installed on the plant | 
+| Actual Speed | Actual operating angular velocity of the shaft  | 12-bit Encoder installed on the plant| 
 | Shaft Control Effort | Control effort to maintain the angular speed of the shaft | MCU PWM |  
 | Orient. xyz | Orientation of the shaft | IMU installed on the shaft | 
 | AngVel. xyz | Angular velocity of the shaft | IMU installed on the shaft |  
 | LinAcc. xyz | Linear acceleration of the shaft | IMU installed on the shaft |  
 | Mag. xyz | Magnetic field around the shaft | IMU installed on the shaft |  
-| Quat. xyzw | Quaternion representation of the shaft | IMU installed on the shaft |  
-| Temp | Temperature around the shaft |  Temperature Sensor installed on the shaft|
-| Audio | Audio reading around the shaft |  Audio Sensor installed on the shaft|
-| Strain Gage| Strain reading on the surface of the shaft| Strain Gage Sensor installed on the shaft |
+| Quat. xyzw | Quaternion representation of the shaft | IMU installed on the shaft|  
+| Temp | Temperature around the shaft | Temperature sensor installed on the shaft|
+| Audio | Audio reading around the shaft | Audio sensor installed on the shaft|
+| Strain Gage| Strain reading on the surface of the shaft| Strain gage Sensor installed on the shaft|
 
 *Note: all other columns in the .csv files are DEPRECATED or effectively substituted by the above columns.*
