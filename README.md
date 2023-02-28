@@ -6,11 +6,13 @@
 
 This place stores all the data sequence that are open access to the community.
 
-To cite this dataset:
-```
+The dataset generation process is described in detail in the following paper:
+
 Yeung, Yip Fun, Alex Paul-Ajuwape, Farida Tahiry, Mikio Furokawa, Takayuki Hirano, and Kamal Youcef-Toumi. 2022. “RoSA:A Mechatronically Synthesized Dataset for Rotodynamic System Anomaly Detection.” In 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2642–49.
 
 
+To cite this dataset:
+```
 @INPROCEEDINGS{Yeung2022-ez,
   title     = "{RoSA:A} Mechatronically Synthesized Dataset for Rotodynamic
                System Anomaly Detection",
