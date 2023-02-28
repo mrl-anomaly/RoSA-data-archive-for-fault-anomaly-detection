@@ -73,6 +73,10 @@ The two citations of the dataset description and the apparatus are written at hi
 
 **Updates**
 
+Update - (2/27/23):
+RoSA-II's instrument is ready, and will be presented in 2022 International Conference on Robotics and Automation (ICRA 2023), stay tuned! The tentative title is *Robotic Method and Instrument to Efficiently Synthesize Faulty Conditions and Mass-Produce Faulty-Conditioned Data*.
+
+
 Update - (10/31/22):
 1. This dataset is presented in the 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2022). 
 2. RoSA-II with better instrumentation and more extensive scope of anomalies is planned.
