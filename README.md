@@ -8,16 +8,26 @@ This place stores all the data sequence that are open access to the community.
 
 To cite this dataset:
 ```
-@INPROCEEDINGS{Yeung2022-mt,
+Yeung, Yip Fun, Alex Paul-Ajuwape, Farida Tahiry, Mikio Furokawa, Takayuki Hirano, and Kamal Youcef-Toumi. 2022. “RoSA:A Mechatronically Synthesized Dataset for Rotodynamic System Anomaly Detection.” In 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2642–49.
+
+
+@INPROCEEDINGS{Yeung2022-ez,
   title     = "{RoSA:A} Mechatronically Synthesized Dataset for Rotodynamic
                System Anomaly Detection",
-  booktitle = "{IEEE/RSJ} International Conference on Intelligent Robots and
-               Systems ({IROS})",
-  author    = "Yeung, Yip Fun and Alshehri, Ali and Paul-Ajuwape, Alex and
-               Tahiry, Farida and Furokawa, Mikio and Hirano, Takayuki and
-               Youcef-toumi, Kamal",
-  year      =  2022
+  booktitle = "2022 {IEEE/RSJ} International Conference on Intelligent Robots
+               and Systems ({IROS})",
+  author    = "Yeung, Yip Fun and Paul-Ajuwape, Alex and Tahiry, Farida and
+               Furokawa, Mikio and Hirano, Takayuki and Youcef-Toumi, Kamal",
+  pages     = "2642--2649",
+  month     =  oct,
+  year      =  2022,
+  keywords  = "Fault diagnosis;Analytical
+               models;Systematics;Pipelines;Production;Benchmark
+               testing;Aerospace electronics;Fault Diagnosis and
+               Prognosis;Sustainable Production and Service Automation;Failure
+               Detection and Recovery"
 }
+
 ```
 
 **Current release - the archive contains data sequence of the following real-time modulated healthy/faulty conditions**
