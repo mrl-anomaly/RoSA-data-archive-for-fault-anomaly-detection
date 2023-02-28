@@ -60,7 +60,7 @@ For more information about the automated synthesis apparatus, checkout:
 
 **Difference between 'manual' and 'mc-generated' data:**
 
-Each mode has a specific faulty attribute whose trajectory is designed and executed by automated apparatus. The N-mode attribute is the amount of shear load, V-mode is the vibration frequency, and D-mode is the inverse of the damping coefficient. 
+Each mode has a specific faulty attribute whose trajectory is designed and executed by automated apparatus. The N-mode attribute is the amount of shear load, V-mode is the vibration frequency, and D-mode is the damping motor's resistance. 
 
 For 'manual' data, the attributes are commanded by a human operator. For 'mc-generated' data, the attribute's trajectory is rolled out with a Markov-Chain process, and programmed into the automated apparatus.
 
@@ -87,6 +87,9 @@ This dataset will be presented in the 2022 IEEE/RSJ International Conference on 
 
 ## **Column annotation in the .csv files**
 
+_Vanilla Use Case_: Without loss of generality and consider a vanilla Neural-Network based fault detection algorithm. Then the condition state variables should be used as the labels, and the measurement variables should be use as the features.
+
+
 | Shared Column | Description |
 | --- | --- |
 | Time | DAQ Main Host time in milliseconds | 
@@ -94,20 +97,19 @@ This dataset will be presented in the 2022 IEEE/RSJ International Conference on 
 | MCU Time | DAQ MCU time (Deprecated, *use 'Time' and 'Rel Time' instead***) |
 | Sample Freq | Sampling frequency for per time step|
 
-
 | Condition State (Label) Space Column | Description |
 | --- | --- |
-| N-mode? | Whether N-mode anomalous synthesis is on or not|
-| V-mode? | Whether V-mode anomalous synthesis is on or not|
-| D-mode? | Whether D-mode anomalous synthesis is on or not|
-|Binary Macro Health Mode | Whether plant is experiencing anomaly (A) or healthy (H)|
-| Multi-class Sublevel Mode | Sublevel Mode of the plant, expands anomaly(A) to V/D/N ({0,1,2,3}; notice V-mode overwrites N-mode; notice currently D do not coexist with V/N modes|
-| Multi-class Sublevel Mode Enc | Category number based on 'Multi-class Sublevel Mode' | 
+| N-mode? | Whether N-mode faulty synthesis is on or not|
+| V-mode? | Whether V-mode faulty synthesis is on or not|
+| D-mode? | Whether D-mode faulty synthesis is on or not|
+|Binary Macro Health Mode | Whether plant is experiencing faulty (A) or healthy (H)|
+| Multi-class Sublevel Mode | Sublevel Mode of the plant, expands faulty(A) to V/D/N {0,1,2,3}; notice V-mode overwrites N-mode|
+| Multi-class Sublevel Mode Enc | Encoded numerical values based on 'Multi-class Sublevel Mode' | 
 | N-mode attribute | Lateral force reading introduced to the plant |
 | V-mode attribute | Active vibration frequency introduced to the plant |
 | D-mode attribute | External damper motor resistance (15ohm is regular operating condition) |
-| Force Sensor Number | Which force sensor to read for N-mode and V-mode (already taken care of, don't use***) |
-| Tool Head Number | EoAT number for N-mode and V-mode (no numerical meaning***) |
+| Force Sensor Number | Which force sensor to read for N-mode and V-mode (*deprecated*) |
+| Tool Head Number | EoAT number for N-mode and V-mode (*deprecated*) |
 
 | Measurement (Feature) Space Column | Description | Sensor |
 | --- | --- | --- |
