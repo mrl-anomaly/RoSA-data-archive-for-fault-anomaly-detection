@@ -2,7 +2,7 @@
 
 # MIT-MRL-RoSA-Data-Archive
 
-** Welcome to the Rotodynamic System with Synthetic Anomaly (RoSA) dataset **
+**Welcome to the Rotodynamic System with Synthetic Anomaly (RoSA) dataset**
 
 This place stores all the data sequence that are open access to the community.
 
