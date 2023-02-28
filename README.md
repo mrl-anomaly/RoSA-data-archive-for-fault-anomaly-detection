@@ -1,5 +1,12 @@
 ![alt text](https://github.com/mrl-anomaly/MIT-MRL-RoSA-Data-Archive/blob/main/RoSA%20flyer%20cropped.pdf)
 
+<object data="https://github.com/mrl-anomaly/MIT-MRL-RoSA-Data-Archive/blob/main/RoSA%20flyer%20cropped.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://github.com/mrl-anomaly/MIT-MRL-RoSA-Data-Archive/blob/main/RoSA%20flyer%20cropped.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="[http://yoursite.com/the.pdf](https://github.com/mrl-anomaly/MIT-MRL-RoSA-Data-Archive/blob/main/RoSA%20flyer%20cropped.pdf)">Download PDF</a>.</p>
+    </embed>
+</object>
+
+
 # MIT-MRL-RoSA-Data-Archive
 
 **Welcome to the Rotodynamic System with Synthetic Anomaly (RoSA) dataset**
