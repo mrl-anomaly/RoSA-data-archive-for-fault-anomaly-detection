@@ -30,10 +30,9 @@ Each sequence is a .csv file that contains the columns described below in *Colum
 
 **How faulty data is generated？**
 
-Unlike traditional methods that generates faulty conditions with **time-invariant** faulty components like bearings, shaft couplings, etc, our method follow a more automated way, such that we can generate large amount of **time-varying** synthetic faults. In essence, we build an automated setup to inject different type of faulty patterns into a rotordynamic plant. The faulty patterns in this dataset includes vibration (e.g., simulating different faulty bearings), abnormal lateral load, and abnormal damping torque load. They are named as 'V', 'N' and 'D' modes, respectively.
+Unlike traditional methods that generate faulty conditions with **time-invariant** faulty components like bearings, shaft couplings, etc, our method follows a more automated way, such that we can generate large amount of **time-varying** synthetic faults. In essence, we build an automated setup to inject different types of faulty patterns into a rotordynamic plant. The faulty patterns in this dataset include vibration (e.g., simulating different faulty bearings), abnormal lateral load, and abnormal damping torque load. They are named as 'V', 'N' and 'D' modes, respectively.
 
 The automated setup allows us to command the severity of faults in **real-time**. Thus, for every time step, the faulty condition is actively modulated and **annotated**, giving users the chance to invesigate time-varying fault **prediction** algorithms. (Arguably, traditional fault generation methods only grant users with out-of-the-box **diagnostic/detection** capacity.)
-
 
 
 For more information about the automated synthesis apparatus, checkout:
