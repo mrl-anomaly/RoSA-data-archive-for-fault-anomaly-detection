@@ -87,7 +87,7 @@ This dataset will be presented in the 2022 IEEE/RSJ International Conference on 
 
 ## **Column annotation in the .csv files**
 
-_Vanilla Use Case_: Without loss of generality and consider a vanilla Neural-Network based fault detection algorithm. Then the condition state variables should be used as the labels, and the measurement variables should be use as the features.
+**_Vanilla Use Case_**: Without loss of generality and consider a vanilla Neural-Network based fault detection algorithm. The condition state variables should be treated as the labels, and the measurement variables should be treated as the features.
 
 
 | Shared Column | Description |
@@ -102,14 +102,14 @@ _Vanilla Use Case_: Without loss of generality and consider a vanilla Neural-Net
 | N-mode? | Whether N-mode faulty synthesis is on or not|
 | V-mode? | Whether V-mode faulty synthesis is on or not|
 | D-mode? | Whether D-mode faulty synthesis is on or not|
-|Binary Macro Health Mode | Whether plant is experiencing faulty (A) or healthy (H)|
+| Binary Macro Health Mode | Whether plant is faulty (A) or healthy (H)|
 | Multi-class Sublevel Mode | Sublevel Mode of the plant, expands faulty(A) to V/D/N {0,1,2,3}; notice V-mode overwrites N-mode|
 | Multi-class Sublevel Mode Enc | Encoded numerical values based on 'Multi-class Sublevel Mode' | 
 | N-mode attribute | Lateral force reading introduced to the plant |
 | V-mode attribute | Active vibration frequency introduced to the plant |
 | D-mode attribute | External damper motor resistance (15ohm is regular operating condition) |
-| Force Sensor Number | Which force sensor to read for N-mode and V-mode (*deprecated*) |
-| Tool Head Number | EoAT number for N-mode and V-mode (*deprecated*) |
+| Force Sensor Number | Which force sensor to read for N-mode and V-mode (*trivial meaning, kept for completeness*) |
+| Tool Head Number | EoAT number for N-mode and V-mode (*trivial meaning, kept for completeness*) |
 
 | Measurement (Feature) Space Column | Description | Sensor |
 | --- | --- | --- |
