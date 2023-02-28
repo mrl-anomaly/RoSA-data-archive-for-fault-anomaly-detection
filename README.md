@@ -37,7 +37,12 @@ Yeung, Yip Fun, Alex Paul-Ajuwape, Farida Tahiry, Mikio Furokawa, Takayuki Hiran
 3. MC-generated V-mode (50 sequences sequences of the rotordynamic plant operating under various **speeds** and **external vibrations**)
 4. Manual D-mode (50 sequences sequences of the rotordynamic plant operating under various **speeds** and **increased damping loads**)
 
-Each sequence is a .csv file that contains the columns described below in the *Column annotation* section. Visualization of the each .csv file is generated and packed in the folders for your convenience.
+Each sequence is a .csv file that contains the columns described below in the *Column annotation* section. Visualization of the each .csv file is generated and packed in the folders as a .png file for your convenience.
+
+**Difference between 'manual' and 'mc-generated' data**
+Each mode has a specific faulty attribute whose trajectory is designed and executed by automated apparatus. The N-mode attribute is the amount of shear load, V-mode is the vibration frequency, and D-mode is the inverse of the damping coefficient. 
+
+For 'manual' data, the attributes are commanded by a human operator. For 'mc-generated' data, the attribute's trajectory is rolled out with a Markov-Chain process, and programmed into the automated apparatus. The detail of this trajectory generation logic is described in *RoSA:A Mechatronically Synthesized Dataset for Rotodynamic System Anomaly Detection*, and the detail of the execution is described in *A General-Purpose Anomalous Scenario Synthesizer for Rotary Equipment*.
 
 **How faulty data is generated？**
 
