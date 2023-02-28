@@ -32,6 +32,11 @@ For more information about the mechatronic synthesis apparatus, checkout:
 }
 ```
 
+Current release - the archive contains data sequence of the following real-time modulated health conditions:
+1. Healthy mode (84 sequences)
+2. Manual N-mode (51 sequences) 
+3. MC-generated V-mode (50 sequences)
+4. Manual D-mode (50 sequences)
 
 Update - (10/31/22):
 1. This dataset is presented in the 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2022). 
@@ -39,12 +44,6 @@ Update - (10/31/22):
 
 Update - (7/19/22):
 This dataset will be presented in the 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2022), stay tuned!
-
-Current release - the archive contains data sequence of the following health conditions:
-1. Healthy mode (84 sequences)
-2. Manual N-mode (51 sequences) 
-3. MC-generated V-mode (50 sequences)
-4. Manual D-mode (50 sequences)
 
 
 Column Annotation:
