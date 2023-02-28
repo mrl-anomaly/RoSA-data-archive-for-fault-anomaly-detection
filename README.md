@@ -103,7 +103,7 @@ This dataset will be presented in the 2022 IEEE/RSJ International Conference on 
 | V-mode? | Whether V-mode faulty synthesis is on or not|
 | D-mode? | Whether D-mode faulty synthesis is on or not|
 | Binary Macro Health Mode | Whether plant is faulty (A) or healthy (H)|
-| Multi-class Sublevel Mode | Sublevel Mode of the plant, expands faulty(A) to V/D/N {0,1,2,3}; notice V-mode overwrites N-mode|
+| Multi-class Sublevel Mode | Detailed faulty mode; expands faulty(A) to V/D/N {0,1,2,3}; notice 'V' overwrites 'N'|
 | Multi-class Sublevel Mode Enc | Encoded numerical values based on 'Multi-class Sublevel Mode' | 
 | N-mode attribute | Lateral force reading introduced to the plant |
 | V-mode attribute | Active vibration frequency introduced to the plant |
