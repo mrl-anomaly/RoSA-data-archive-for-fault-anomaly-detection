@@ -2,7 +2,7 @@
 
 <a href="url"><img src="https://github.com/mrl-anomaly/MIT-MRL-RoSA-Data-Archive/blob/main/RoSA%20flyer%20cropped.png" align="center" width="600" ></a>
 
-## **Welcome to the Rotodynamic System with Synthetic Anomaly (RoSA) dataset**
+## **Welcome to the Rotodynamic System with Synthetic Anomaly (RoSA) dataset :) **
 
 To cite this dataset:
 ```
@@ -25,13 +25,13 @@ To cite this dataset:
 
 ```
 
-**The dataset generation process is described in detail in the following paper**
+**The dataset generation process is described in detail in the following paper:**
 
 [Yeung, Yip Fun, Alex Paul-Ajuwape, Farida Tahiry, Mikio Furokawa, Takayuki Hirano, and Kamal Youcef-Toumi. 2022. “RoSA:A Mechatronically Synthesized Dataset for Rotodynamic System Anomaly Detection” In 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2642–49.](https://ieeexplore.ieee.org/abstract/document/9982146)
 
 *If you are not interested in the details, a short description of this dataset is presented below.* 
 
-**Current release - the archive contains data sequence of the following real-time modulated healthy/faulty conditions**
+**Current release - the archive contains data sequence of the following real-time modulated healthy/faulty conditions:**
 1. Healthy mode (84 sequences of the rotordynamic plant operating under various **speeds** and a **normal damping load**)
 2. Manual N-mode (51 sequences of the rotordynamic plant operating under various **speeds** and **lateral deflections**) 
 3. MC-generated V-mode (50 sequences sequences of the rotordynamic plant operating under various **speeds** and **external vibrations**)
@@ -58,7 +58,7 @@ For more information about the automated synthesis apparatus, checkout:
 }
 ```
 
-**Difference between 'manual' and 'mc-generated' data**
+**Difference between 'manual' and 'mc-generated' data:**
 
 Each mode has a specific faulty attribute whose trajectory is designed and executed by automated apparatus. The N-mode attribute is the amount of shear load, V-mode is the vibration frequency, and D-mode is the inverse of the damping coefficient. 
 
