@@ -87,7 +87,7 @@ This dataset will be presented in the 2022 IEEE/RSJ International Conference on 
 
 ## **Column annotation in the .csv files**
 
-**_Vanilla Use Case_**: Without loss of generality and consider a vanilla Neural-Network based fault detection algorithm. The condition state variables should be treated as the labels, and the measurement variables should be treated as the features.
+**_Vanilla Use Case_**: Without loss of generality and consider a supervised Neural-Network-based fault detection algorithm. The condition state variables should be treated as the labels, and the measurement variables should be treated as the features.
 
 
 | Shared Column | Description |
@@ -116,9 +116,9 @@ This dataset will be presented in the 2022 IEEE/RSJ International Conference on 
 | Desired Speed | Commanded operating angular velocity of the shaft | MCU internal | 
 | Actual Speed | Actual operating angular velocity of the shaft  | 12-bit Encoder installed on the plant | 
 | Shaft Control Effort | Control effort to maintain the angular speed of the shaft | MCU PWM |  
-| Orient. xyz| Orientation of the shaft | IMU installed on the shaft | 
-| AngVel. xyz| Angular velocity of the shaft | IMU installed on the shaft |  
-| LinAcc. xyz| Linear acceleration of the shaft | IMU installed on the shaft |  
+| Orient. xyz | Orientation of the shaft | IMU installed on the shaft | 
+| AngVel. xyz | Angular velocity of the shaft | IMU installed on the shaft |  
+| LinAcc. xyz | Linear acceleration of the shaft | IMU installed on the shaft |  
 | Mag. xyz | Magnetic field around the shaft | IMU installed on the shaft |  
 | Quat. xyzw | Quaternion representation of the shaft | IMU installed on the shaft |  
 | Temp | Temperature around the shaft |  Temperature Sensor installed on the shaft|
