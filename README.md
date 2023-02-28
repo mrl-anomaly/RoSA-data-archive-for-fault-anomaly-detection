@@ -37,7 +37,7 @@ Yeung, Yip Fun, Alex Paul-Ajuwape, Farida Tahiry, Mikio Furokawa, Takayuki Hiran
 3. MC-generated V-mode (50 sequences sequences of the rotordynamic plant operating under various **speeds** and **external vibrations**)
 4. Manual D-mode (50 sequences sequences of the rotordynamic plant operating under various **speeds** and **increased damping loads**)
 
-Each sequence is a .csv file that contains the columns described below in the *Column annotation* section. Visualization of the signals are generated and packed in the folders for your convenience.
+Each sequence is a .csv file that contains the columns described below in the *Column annotation* section. Visualization of the each .csv file is generated and packed in the folders for your convenience.
 
 **How faulty data is generated？**
 
