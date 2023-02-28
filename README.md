@@ -20,7 +20,22 @@ To cite this dataset:
 }
 ```
 
-For more information about the mechatronic synthesis apparatus, checkout:
+**Current release - the archive contains data sequence of the following real-time modulated health conditions:**
+1. Healthy mode (84 sequences of the rotordynamic plant operating under various **speeds** and a normal damping load)
+2. Manual N-mode (51 sequences of the rotordynamic plant operating under various **speeds** and **lateral deflections**) 
+3. MC-generated V-mode (50 sequences sequences of the rotordynamic plant operating under various **speeds** and **external vibrations**)
+4. Manual D-mode (50 sequences sequences of the rotordynamic plant operating under various **speeds** and **increased damping loads**)
+
+Each sequence is a .csv file that contains the columns described below in **Column Annotation**. Visualization of the signals are generated and packed in the folders for your convenience.
+
+**How faulty data is generated:**
+Unlike traditional methods that generates faulty conditions with **time-invariant** faulty components like bearings, shaft couplings, etc, our method follow a more automated way, such that we can generate large amount of **time-varying** synthetic faults. In essence, we build an automated setup to inject different type of faulty patterns into a rotordynamic plant. The faulty patterns in this dataset includes vibration (e.g., simulating different faulty bearings), abnormal lateral load, and abnormal damping torque load. They are named as 'V', 'N' and 'D' modes, respectively.
+
+The automated setup allows us to command the severity of faults in **real-time**. Thus, for every time step, the faulty condition is actively modulated and **annotated**, giving users the chance to invesigate time-varying fault **prediction** algorithms. (Arguably, traditional fault generation methods only grant users with out-of-the-box **diagnostic/detection** capacity.)
+
+
+
+For more information about the automated synthesis apparatus, checkout:
 ```
 @INPROCEEDINGS{Yeung2021-yg,
   title     = "A {General-Purpose} Anomalous Scenario Synthesizer for Rotary
@@ -32,12 +47,8 @@ For more information about the mechatronic synthesis apparatus, checkout:
 }
 ```
 
-**Current release - the archive contains data sequence of the following real-time modulated health conditions:**
-1. Healthy mode (84 sequences of the rotordynamic plant operating under various **speeds** and a normal damping load)
-2. Manual N-mode (51 sequences of the rotordynamic plant operating under various **speeds** and **lateral deflections**) 
-3. MC-generated V-mode (50 sequences sequences of the rotordynamic plant operating under various **speeds** and **external vibrations**)
-4. Manual D-mode (50 sequences sequences of the rotordynamic plant operating under various **speeds** and **increased damping loads**)
 
+**Updates**
 Update - (10/31/22):
 1. This dataset is presented in the 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2022). 
 2. RoSA-II with better instrumentation and more extensive scope of anomalies is planned.
@@ -46,7 +57,7 @@ Update - (7/19/22):
 This dataset will be presented in the 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2022), stay tuned!
 
 
-Column Annotation:
+**Column Annotation:**
 
 | Public Column Name | Description |
 | --- | --- |
