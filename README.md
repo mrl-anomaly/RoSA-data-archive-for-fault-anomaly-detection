@@ -1,5 +1,4 @@
-![](https://github.com/mrl-anomaly/MIT-MRL-RoSA-Data-Archive/blob/main/RoSA%20flyer%20cropped.png | width=300)
-<a href="url"><img src="https://github.com/mrl-anomaly/MIT-MRL-RoSA-Data-Archive/blob/main/RoSA%20flyer%20cropped.png" align="left" height="48" width="48" ></a>
+<a href="url"><img src="https://github.com/mrl-anomaly/MIT-MRL-RoSA-Data-Archive/blob/main/RoSA%20flyer%20cropped.png" align="center" height="300" width="300" ></a>
 
 # MIT-MRL-RoSA-Data-Archive
 
