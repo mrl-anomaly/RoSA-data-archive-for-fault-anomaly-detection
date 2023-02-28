@@ -29,7 +29,7 @@ To cite this dataset:
 
 Yeung, Yip Fun, Alex Paul-Ajuwape, Farida Tahiry, Mikio Furokawa, Takayuki Hirano, and Kamal Youcef-Toumi. 2022. “RoSA:A Mechatronically Synthesized Dataset for Rotodynamic System Anomaly Detection.” In 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2642–49.
 
-*If you are not interested in the details, a short description of this dataset is presented below. 
+*If you are not interested in the details, a short description of this dataset is presented below.* 
 
 **Current release - the archive contains data sequence of the following real-time modulated healthy/faulty conditions**
 1. Healthy mode (84 sequences of the rotordynamic plant operating under various **speeds** and a normal damping load)
