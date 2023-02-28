@@ -32,7 +32,7 @@ For more information about the mechatronic synthesis apparatus, checkout:
 }
 ```
 
-Current release - the archive contains data sequence of the following real-time modulated health conditions:
+**Current release - the archive contains data sequence of the following real-time modulated health conditions:**
 1. Healthy mode (84 sequences)
 2. Manual N-mode (51 sequences) 
 3. MC-generated V-mode (50 sequences)
