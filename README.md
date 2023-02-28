@@ -113,8 +113,8 @@ This dataset will be presented in the 2022 IEEE/RSJ International Conference on 
 
 | Measurement (Feature) Space Column | Description | Sensor |
 | --- | --- | --- |
-| Desired Speed | Commanded operating angular velocity of the shaft | MCU internal | 
-| Actual Speed | Actual operating angular velocity of the shaft| 12-bit Encoder installed on the plant| 
+| Desired Speed | Commanded angular velocity of the shaft | MCU internal | 
+| Actual Speed | Actual angular velocity of the shaft| 12-bit Encoder installed on the plant| 
 | Shaft Control Effort | Control effort to drive the shaft | MCU PWM |  
 | Orient. xyz | Orientation of the shaft | IMU installed on the shaft | 
 | AngVel. xyz | Angular velocity of the shaft | IMU installed on the shaft |  
