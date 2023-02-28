@@ -64,7 +64,7 @@ Each mode has a specific faulty attribute whose trajectory is designed and execu
 
 For 'manual' data, the attributes are commanded by a human operator. For 'mc-generated' data, the attribute's trajectory is rolled out with a Markov-Chain process, and programmed into the automated apparatus.
 
-The detail of this trajectory generation logic is described in *RoSA:A Mechatronically Synthesized Dataset for Rotodynamic System Anomaly Detection*, and the detail of the execution is described in *A General-Purpose Anomalous Scenario Synthesizer for Rotary Equipment*.
+The detail of this trajectory generation logic is described in [*RoSA:A Mechatronically Synthesized Dataset for Rotodynamic System Anomaly Detection*](https://ieeexplore.ieee.org/abstract/document/9982146), and the detail of the execution is described in [*A General-Purpose Anomalous Scenario Synthesizer for Rotary Equipment*](https://ieeexplore.ieee.org/abstract/document/9561841).
 
 **Contact**
 
