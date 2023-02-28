@@ -74,7 +74,7 @@ Update - (7/19/22):
 This dataset will be presented in the 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2022), stay tuned!
 
 
-**Column Annotation**
+**Column Annotation in the .csv files**
 
 | Shared Column | Description |
 | --- | --- |
@@ -112,4 +112,4 @@ This dataset will be presented in the 2022 IEEE/RSJ International Conference on 
 | Audio | Audio reading around the shaft |  Audio Sensor installed on the shaft|
 | Strain Gage| Strain reading on the surface of the shaft| Strain Gage Sensor installed on the shaft |
 
-*Note: all other columns in the .csv files are DEPRECATED or already accounted for to generate the above columns. It would be meaningless to use them.
+*Note: all other columns in the .csv files are DEPRECATED or effectively substituted by the above columns.*
