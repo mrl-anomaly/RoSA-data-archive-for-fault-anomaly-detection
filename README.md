@@ -4,6 +4,8 @@
 
 ## Welcome to the Rotodynamic System with Synthetic Anomaly (RoSA) dataset :) 
 
+This dataset is released for scholars to develop and validate fault detection, diagnostic, and prediction algorithms on rotor systems.
+
 To cite this dataset:
 ```
 @INPROCEEDINGS{Yeung2022-ez,
