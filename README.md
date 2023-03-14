@@ -17,12 +17,7 @@ To cite this dataset:
                Furokawa, Mikio and Hirano, Takayuki and Youcef-Toumi, Kamal",
   pages     = "2642--2649",
   month     =  oct,
-  year      =  2022,
-  keywords  = "Fault diagnosis;Analytical
-               models;Systematics;Pipelines;Production;Benchmark
-               testing;Aerospace electronics;Fault Diagnosis and
-               Prognosis;Sustainable Production and Service Automation;Failure
-               Detection and Recovery"
+  year      =  2022
 }
 
 ```
