@@ -41,7 +41,7 @@ To cite this dataset:
 
 Each sequence is a .csv file that contains the columns described below in the *Column annotation* section. Visualization of the each .csv file is generated and packed in the folders as a .png file for your convenience.
 
-**How faulty data is generated？**
+**Unique properties of this dataset and how faulty data is generated？**
 
 Unlike traditional methods that generate faulty conditions with **time-invariant** faulty components like bearings, shaft couplings, etc, our method follows a more automated way, such that we can generate large amount of **time-varying** synthetic faults. In essence, we build an automated setup to inject different types of faulty patterns into a rotordynamic plant. The faulty patterns in this dataset include vibration (e.g., simulating different faulty bearings), abnormal lateral load, and abnormal damping torque load. They are named as 'V', 'N' and 'D' modes, respectively.
 
