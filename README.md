@@ -2,7 +2,7 @@
 
 <a href="url"><img src="https://github.com/mrl-anomaly/MIT-MRL-RoSA-Data-Archive/blob/main/RoSA%20flyer%20cropped.png" align="center" width="600" ></a>
 
-## **Welcome to the Rotodynamic System with Synthetic Anomaly (RoSA) dataset :) **
+## Welcome to the Rotodynamic System with Synthetic Anomaly (RoSA) dataset :) 
 
 To cite this dataset:
 ```
